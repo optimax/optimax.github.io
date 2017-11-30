@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/********************************* LAYOUT ************************************************/
+
+body {    
+    padding: 10px;    
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    padding: 3px 10px;
+}
+
+ul {
+    list-style: none;    
+}
+
+.content {
+    width: 450px;
+    margin: 0 auto;
+}
+
+.main-menu {   
+    margin: 15px 0 0 0;     
+}
+.main-menu li { 
+    margin: 1px;
+    border-radius: 3px;
+}
+
+.form-center {    
+    width: 300px;
+    margin: 15px auto;
+    padding: 15px;
+
+    border: 1px solid #ddd;
+}
+
+.form-title {
+    font-weight: bold;
+    text-align: center;
+}
+
+.form-row {
+    margin: 5px 0;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 2px 3px;    
+    border-width: 1px;
+    border-style: solid;
+
+    border-color: #ddd;
+}
+
+button {
+    padding: 3px;
+    
+    border-style: solid;
+    border-width: 1px;
+
+    border-color: #ddd;
+}
+.btn-primary {
+    padding: 5px;    
+}
+
+.row-spacer {
+    height: 10px;
+}

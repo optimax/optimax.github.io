@@ -1,0 +1,60 @@
+
+
+
+/*************************** COLORS ************************************************/
+body {
+    background: #1F1F1F;
+    color: #999;
+}
+
+a {
+    color: #999;
+}
+
+a:hover {
+    color: #ffffff;
+    background: #50504D;    
+}
+
+
+.shadow,
+.shadow li {
+    box-shadow: 10px 19px 38px rgba(0, 0, 0, 0.2), 0 15px 12px rgba(0, 0, 0, 0.1);
+}
+
+.main-menu li {
+    background: #272726;    
+}
+
+
+.form-center{    
+    background: #272726;   
+    border: none;
+}
+
+
+button {
+    background: rgb(175, 130, 32);
+    color: rgba(221, 221, 221, 0.562); 
+    border-color: #5f5e5e;
+}
+
+button:hover {
+    background: goldenrod;
+    color: white;
+    box-shadow: 10px 19px 38px rgba(0, 0, 0, 0.5), 0 15px 12px rgba(0, 0, 0, 0.3);
+}
+
+.btn-primary {
+    background-image: linear-gradient(#101112, #17191b 40%, #1b1e20);
+    background-repeat: no-repeat;
+    -webkit-filter: none;
+    filter: none;    
+}
+
+input[type="text"],
+input[type="password"] {
+    background:  #474747;   
+    border-color: #5f5e5e;
+    color: white;
+}
